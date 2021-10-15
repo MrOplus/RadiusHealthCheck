@@ -1,0 +1,22 @@
+{
+  "Servers" :[
+    {
+      "Address" : "127.0.0.1",
+      "Port" : 1165,
+      "Secret" : "abcd123456",
+      "TriggerCount" : 5
+    }
+  ],
+  "Credentials": {
+    "Username" : "Hello",
+    "Password" : "World"
+  },
+  "Interval" : 3,
+  "Hook": {
+    "Url" : "http://hook.local/testHook",
+    "Credentials": {
+      "Username" : "Hello",
+      "Password" : "World"
+    }
+  }
+}
