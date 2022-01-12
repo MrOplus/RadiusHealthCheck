@@ -15,6 +15,7 @@ func main() {
 	opts := cli.Parse()
 	conf := config.Parse(opts.Config)
 	fmt.Printf("Total Servers %d\n", len(conf.Servers))
+
 	for i := 0 ; i < len(conf.Servers) ; i++ {
 		go healthcheck.StartHealthCheck(&conf.Servers[i],conf)
 	}
