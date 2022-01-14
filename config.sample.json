@@ -1,15 +1,15 @@
 {
   "Servers" :[
     {
-      "Address" : "87.98.146.213",
-      "Port" : 1812,
-      "Secret" : "bartarvs",
+      "Address" : "127.0.0.1",
+      "Port" : 1165,
+      "Secret" : "abcd123456",
       "TriggerCount" : 3
     }
   ],
   "Credentials": {
-    "Username" : "4testradius",
-    "Password" : "1q2q3a4a5z6z"
+    "Username" : "Hello",
+    "Password" : "World"
   },
   "Interval" : 3,
   "Hook": {
